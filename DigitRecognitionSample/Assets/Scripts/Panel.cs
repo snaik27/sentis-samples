@@ -23,7 +23,7 @@ public class Panel : MonoBehaviour
 
     // code pad where the digit is drawn onto
     Texture2D drawableTexture;
-    const int imageWidth = 28; //width and height of input image
+    const int imageWidth = 128; //width and height of input image
     float[] imageData = new float[imageWidth * imageWidth];
     byte[] zeroes = new byte[imageWidth * imageWidth * 3]; // blank screen
     Vector3 lastCoord; // last position of mouse on screen
